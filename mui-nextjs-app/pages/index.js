@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import MuiTyphography from "../components/muiTyphography";
+import MuiBox from "../components/muiBox";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
 
       {/* <main className={styles.main}> */}
       <main>
-        <MuiTyphography />
+        {/* <MuiTyphography /> */}
+        <MuiBox />
       </main>
     </div>
   );
