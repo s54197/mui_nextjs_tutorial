@@ -3,6 +3,8 @@ import styles from "../styles/Home.module.css";
 import MuiTyphography from "../components/muiTyphography";
 import MuiBox from "../components/muiBox";
 import MuiStack from "../components/muiStack";
+import MuiGrid from "../components/muiGrid";
+import MuiPaper from "../components/muiPaper";
 
 export default function Home() {
   return (
@@ -16,7 +18,9 @@ export default function Home() {
       <main>
         {/* <MuiTyphography /> */}
         {/* <MuiBox /> */}
-        <MuiStack />
+        {/* <MuiStack /> */}
+        {/* <MuiGrid /> */}
+        <MuiPaper />
       </main>
     </div>
   );
