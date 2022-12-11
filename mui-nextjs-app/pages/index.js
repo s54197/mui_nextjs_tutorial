@@ -5,6 +5,7 @@ import MuiBox from "../components/muiBox";
 import MuiStack from "../components/muiStack";
 import MuiGrid from "../components/muiGrid";
 import MuiPaper from "../components/muiPaper";
+import MuiCard from "../components/muiCard"
 
 export default function Home() {
   return (
@@ -14,13 +15,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <main className={styles.main}> */}
-      <main>
+      <main className={styles.main}>
+      {/* <main> */}
         {/* <MuiTyphography /> */}
         {/* <MuiBox /> */}
         {/* <MuiStack /> */}
         {/* <MuiGrid /> */}
-        <MuiPaper />
+        {/* <MuiPaper /> */}
+        <MuiCard />
       </main>
     </div>
   );
