@@ -6,5 +6,5 @@
 5. Run *yarn add mui/material @emotion/react @emotion/styled @emotion/server*
 6. Run *yarn add @mui/icons-material*
 7. Run *yarn add @mui/styles*
-8. Copy additional files/folders from [title](https://www.geeksforgeeks.org/how-to-use-material-ui-with-next-js/)
+8. Copy additional files/folders from [sample web](https://www.geeksforgeeks.org/how-to-use-material-ui-with-next-js/)
 9. Start dev server: run *yarn dev*
